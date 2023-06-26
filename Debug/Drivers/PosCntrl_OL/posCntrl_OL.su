@@ -1,0 +1,4 @@
+../Drivers/PosCntrl_OL/posCntrl_OL.c:11:6:posOL_Reset	16	static
+../Drivers/PosCntrl_OL/posCntrl_OL.c:24:6:posOL_SetupMove	24	static
+../Drivers/PosCntrl_OL/posCntrl_OL.c:40:6:posOL_ClearMove	16	static
+../Drivers/PosCntrl_OL/posCntrl_OL.c:46:6:posOL_CheckTargetReached	16	static
