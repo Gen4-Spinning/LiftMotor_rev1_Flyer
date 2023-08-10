@@ -623,11 +623,11 @@ int main(void)
   __HAL_TIM_SET_COUNTER(&htim2,startingCNT_val); // set it in the timer CNT register.
   HAL_TIM_Encoder_Start_IT(&htim2,TIM_CHANNEL_ALL); //start the encoder
 
-  //homing Position Setup
+  //homing Position Setupp
   manualWriteHomingPos = 0;
   //TODO CAN frame to make this zero.
   if (manualWriteHomingPos){
-	  writeHomingPositionToEeprom(5938); // lift Left 5938
+	  writeHomingPositionToEeprom(5583); // lift Left 5938
 	  manualWriteHomingPos = 0;
   }
 
